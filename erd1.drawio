@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="x1DATHa0XeXhx51J9f8j" name="Page-1">
-        <mxGraphModel dx="1831" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1794" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -47,17 +47,17 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="122" value="Menyuplai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                <mxCell id="122" value="mengorder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="600" y="95" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="123" value="Disuplai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="95" width="70" height="30" as="geometry"/>
+                <mxCell id="123" value="diorder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="95" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="125" value="Melayani" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="300" width="70" height="30" as="geometry"/>
+                <mxCell id="125" value="Melayani&lt;br&gt;transaksi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="295" width="70" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="126" value="Dilayani" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="610" y="300" width="70" height="30" as="geometry"/>
+                <mxCell id="126" value="bertransaksi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="300" width="90" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="127" value="mengelola" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="225" y="300" width="80" height="30" as="geometry"/>
@@ -109,13 +109,13 @@
                         <mxPoint x="130" y="250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="148" value="order barang ke supplier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="148" value="order barang ke supplier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="500" y="-220" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="149" value="transaksi pelanggan melalui kasir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="149" value="transaksi pelanggan melalui kasir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="480" y="630" width="200" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="152" value="Minimarket menerima barang dan dikelola kasir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="152" value="Minimarket menerima barang dan dikelola kasir" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-200" y="125" width="280" height="30" as="geometry"/>
                 </mxCell>
             </root>
