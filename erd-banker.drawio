@@ -1,6 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="9awVjqYLx3EmJhXR3-IW" name="Page-1">
+<<<<<<< HEAD
         <mxGraphModel dx="2598" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+=======
+<<<<<<< HEAD
+        <mxGraphModel dx="2559" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+=======
+        <mxGraphModel dx="1838" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
+>>>>>>> 65a7c394be6f7e1a7c905a1f0761de90c7c3d757
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -74,18 +82,30 @@
                     <mxGeometry x="335" y="335" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="SKEMA DATABASE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+<<<<<<< HEAD
+                    <mxGeometry x="295" y="630" width="130" height="30" as="geometry"/>
+=======
                     <mxGeometry x="295" y="680" width="130" height="30" as="geometry"/>
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
                 </mxCell>
                 <mxCell id="64" value="Supplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="-310" y="750" width="160" height="100" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
+                <mxCell id="65" value="# id_supplier&#10;* nama_supplier&#10;* telp&#10;* alamat_supplier" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="64" vertex="1">
+=======
                 <mxCell id="65" value="# id_supplier&#10;* nama_supplier&#10;* telp_supp&#10;* alamat_supplier" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="64" vertex="1">
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
                     <mxGeometry y="30" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="66" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.174;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="64" source="65" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.009;entryY=0.361;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;exitX=0.996;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="71" edge="1">
+=======
                 <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.005;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;exitX=0.996;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="71" edge="1">
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="129.3599999999999" y="799" as="sourcePoint"/>
                         <mxPoint x="220" y="811.0300000000002" as="targetPoint"/>
@@ -107,21 +127,36 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="70" value=" transaksi_detail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+<<<<<<< HEAD
+                    <mxGeometry x="200" y="744" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="* id_transaksi&#10;* id_barang&#10;* harga_barang&#10;* qty" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="70" vertex="1">
+                    <mxGeometry y="30" width="160" height="70" as="geometry"/>
+=======
                     <mxGeometry x="200" y="744" width="160" height="116" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" value="* id_transaksi&#10;* id_barang&#10;* subtotal&#10;* qty" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="70" vertex="1">
                     <mxGeometry y="30" width="160" height="86" as="geometry"/>
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
                 </mxCell>
                 <mxCell id="72" value="kasir" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="750" y="1000" width="160" height="130" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
+                <mxCell id="73" value="# id_kasir&#10;* nama_kasir&#10;* shift&#10;* alamat&#10;* no_telp&#10;* id_pelanggan" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="72" vertex="1">
+=======
                 <mxCell id="73" value="# id_kasir&#10;* nama_kasir&#10;* shift&#10;* alamat_kasir&#10;* telp_kasir&#10;* id_pelanggan" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="72" vertex="1">
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
                     <mxGeometry y="30" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="Pelanggan" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="295" y="990" width="160" height="120" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
+                <mxCell id="75" value="# id_pelanggan&#10;* nama_pelanggan&#10;* jenis_kelamin&#10;* telp&#10;* alamat" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="74" vertex="1">
+=======
                 <mxCell id="75" value="# id_pelanggan&#10;* nama_pelanggan&#10;* jenis_kelamin&#10;* telp_pelanggan&#10;* alamat_pelanggan" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="74" vertex="1">
+>>>>>>> bb45b0bb644a7cf67e97512a85949ad3fc4ea4a5
                     <mxGeometry y="30" width="160" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;" parent="1" source="71" target="21" edge="1">
